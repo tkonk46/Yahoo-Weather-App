@@ -1,0 +1,46 @@
+html, .container-fluid{
+    background: url(trees-mist.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 3em;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+}
+
+input{
+  border-radius: 10%;
+  margin: 0.5em;
+}
+.button{
+  color: #dce3e8;
+  background:linear-gradient(#47718c, #68a9d1);
+}
+
+#temp{
+  font-size: 3em;
+}
+
+#temp, #today{
+    display: inline-block;
+}
+
+#today{
+    margin-left: 2%;
+}
+
+#attribution{
+    text-decoration: none;
+    color: black;
+}
